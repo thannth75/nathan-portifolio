@@ -25,8 +25,10 @@ export interface ResumeItem {
 
 export interface ProjectItem {
   title: string
-  tags: string
-  icon: ComponentType<{ className?: string }>
+  tags?: string
+  icon?: ComponentType<{ className?: string }>
+  href?: string
+  image?: string
 }
 
 export interface ContactItem {
