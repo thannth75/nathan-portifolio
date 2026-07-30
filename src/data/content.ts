@@ -89,6 +89,28 @@ export const RESUME_ITEMS: ResumeItem[] = [
 
 export const PROJECTS: ProjectItem[] = [
   {
+    title: 'B&L Fio & Artes',
+    tags: 'E‑commerce • Front‑end',
+    icon: FolderKanban,
+    href: 'https://belfiosearte.lovable.app',
+    image: '/projects/belfiosearte.svg',
+  },
+  {
+    title: 'Vida em Cristo',
+    tags: 'Site Institucional • Conteúdo',
+    icon: LayoutDashboard,
+    href: 'https://vidaemcristo.lovable.app',
+    image: '/projects/vidaemcristo.svg',
+  },
+  {
+    title: 'Moto Express',
+    tags: 'Landing • Serviços',
+    icon: MessageSquare,
+    href: 'https://nathan-moto-speedy.lovable.app',
+    image: '/projects/nathan-moto-speedy.svg',
+  },
+  // Mantive os outros projetos como opcionais — eles serão filtrados pelo front-end se não tiverem href/image
+  {
     title: 'Dashboard Executivo',
     tags: 'Power BI • SQL • Dados',
     icon: LayoutDashboard,
@@ -141,6 +163,27 @@ export const SOCIAL_LINKS = [
   { href: GITHUB_URL, icon: FaGithub, label: 'GitHub' },
   { href: LINKEDIN_URL, icon: FaLinkedin, label: 'LinkedIn' },
   { href: WHATSAPP_URL, icon: FaWhatsapp, label: 'WhatsApp' },
+]
+
+export const CERTIFICATIONS = [
+  {
+    title: 'Lean Seis Sigma Yellow Belt',
+    issuer: 'FM2S',
+    hours: '24 horas',
+    image: '/certs/lean_yellow.svg',
+  },
+  {
+    title: 'Lean Seis Sigma White Belt',
+    issuer: 'FM2S',
+    hours: '8 horas',
+    image: '/certs/lean_white.svg',
+  },
+  {
+    title: 'Fundamentos da Gestão da Qualidade',
+    issuer: 'FM2S',
+    hours: '9 horas',
+    image: '/certs/gestao_qualidade.svg',
+  },
 ]
 
 export { CV_URL, PROFILE }

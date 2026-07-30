@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#f3f4f6" />
+  <rect x="40" y="40" width="1120" height="620" rx="12" fill="#ffffff" stroke="#e5e7eb" />
+  <text x="60" y="120" font-family="Inter, Arial, sans-serif" font-size="48" fill="#111827">B&amp;L Fio &amp; Artes</text>
+  <text x="60" y="180" font-family="Inter, Arial, sans-serif" font-size="24" fill="#6b7280">E-commerce • Front-end</text>
+  <g transform="translate(60,220)">
+    <rect width="320" height="200" rx="8" fill="#efefef" />
+    <text x="20" y="110" font-family="Inter, Arial, sans-serif" font-size="18" fill="#9ca3af">thumbnail</text>
+  </g>
+  <text x="60" y="520" font-family="JetBrains Mono, monospace" font-size="14" fill="#9ca3af">belfiosearte.lovable.app</text>
+</svg>
